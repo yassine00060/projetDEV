@@ -24,10 +24,9 @@ const userSchema = new mongoose.Schema(
       type: {},
       required: true,
     },
-    answer: {
-      type: String,
-      required: false,
-    },
+    // answer: {
+    //   type: String,
+    //    }
     role: {
       type: Number,
       default: 0,
